@@ -1,0 +1,24 @@
+# ── Gugge-botens inställningar ───────────────────────────────────────────────
+# Ändra här utan att röra koden.
+
+[claude]
+# Modell som genererar svaren
+# Alternativ: claude-haiku-4-5 (snabb/billig), claude-sonnet-4-5 (bättre/dyrare)
+modell = "claude-haiku-4-5"
+
+# Max antal tokens i svaret (1 token ≈ 0.75 ord)
+max_tokens = 256
+
+[rag]
+# Embedding-modell för att hitta relevant slang
+embedding_modell = "BAAI/bge-m3"
+
+# Antal slangord som hämtas per fråga
+antal_slangord = 20
+
+[bot]
+# Aktiv karaktär — måste matcha en mapp under lexicon/
+karakter = "gugge"
+
+# Antal exempelrepliker från filmen som visas i systempromten
+antal_exempelrepliker = 20

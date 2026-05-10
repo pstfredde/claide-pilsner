@@ -1,0 +1,27 @@
+# Stora mediafiler
+*.mkv
+*.mp4
+*.avi
+röst/gugge_klipp/
+röst/gugge_roster.mp3
+
+# Känsliga filer
+.env
+*.key
+
+# Stora lexikonfiler
+slanglex.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# macOS
+.DS_Store
+
+# Conda/venv
+.conda/
+venv/
+env/
